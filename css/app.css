@@ -1,4 +1,5 @@
 /* layout */
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -7,6 +8,7 @@
 
 html {
     font-family: "Encode Sans", sans-serif;
+    color: #444851;
 }
 
 .container {
@@ -15,8 +17,10 @@ html {
 }
 
 /* header */
+
 .title {
     display: inline-block;
+    color: black;
 }
 
 header img,
@@ -27,7 +31,9 @@ header h1 {
 .main-header {
     padding: 20px;
 }
+
 /* main */
+
 .main-content {
     background-color: #F6F8F9;
     padding: 30px;
@@ -59,4 +65,48 @@ header h1 {
     background-color: white;
     color: #CED3D7;
     border: 1px solid #C5CBD0;
+}
+
+.content {
+    background-color: white;
+    padding: 30px 80px;
+}
+
+.nav-block {
+    margin-bottom: 2px;
+}
+
+.green-checkmark {
+    border: 1px solid #64C0A9;
+    color: #64C0A9;
+    height: 20px;
+    width: 20px;
+    border-radius: 10px;
+    text-align: center;
+    display: inline-block;
+}
+
+.task {
+    padding: 10px 10px;
+}
+
+.task-text {
+    display: inline-block;
+    vertical-align: super;
+    padding-left: 5px;
+    font-weight: 500;
+}
+
+.task-type {
+    display: inline-block;
+    height: 25px;
+    border-radius: 10px;
+    color: white;
+    vertical-align: super;
+    font-size: x-small;
+    padding: 5px 10px;
+}
+
+.editorial {
+    background-color: #45ABEA;
 }
