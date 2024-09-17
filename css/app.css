@@ -69,7 +69,8 @@ header h1 {
 
 .content {
     background-color: white;
-    padding: 30px 80px;
+    padding-left: 80px;
+    padding-top: 30px;
 }
 
 .nav-block {
@@ -109,4 +110,26 @@ header h1 {
 
 .editorial {
     background-color: #45ABEA;
+}
+
+.goals {
+    background-color: #9C72E4;
+}
+
+.red-checkmark {
+    border: 1px solid #EA4237;
+    color: #EA4237;
+    height: 20px;
+    width: 20px;
+    border-radius: 10px;
+    text-align: center;
+    display: inline-block;
+}
+
+.recruiting {
+    background-color: #64C0A9;
+}
+
+.mobile {
+    background-color: #F29E33;
 }
