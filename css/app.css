@@ -45,6 +45,18 @@ header h1 {
     border-radius: 5px;
 }
 
+.content {
+    background-color: white;
+    padding-left: 80px;
+    padding-top: 30px;
+}
+
+.nav-block {
+    margin-bottom: 2px;
+}
+
+/* Buttons */
+
 .button {
     display: inline-block;
 }
@@ -67,15 +79,7 @@ header h1 {
     border: 1px solid #C5CBD0;
 }
 
-.content {
-    background-color: white;
-    padding-left: 80px;
-    padding-top: 30px;
-}
-
-.nav-block {
-    margin-bottom: 2px;
-}
+/* Custom Checkmarks */
 
 .green-checkmark {
     border: 1px solid #64C0A9;
@@ -86,6 +90,18 @@ header h1 {
     text-align: center;
     display: inline-block;
 }
+
+.red-checkmark {
+    border: 1px solid #EA4237;
+    color: #EA4237;
+    height: 20px;
+    width: 20px;
+    border-radius: 10px;
+    text-align: center;
+    display: inline-block;
+}
+
+/* Task */
 
 .task {
     padding: 10px 10px;
@@ -108,6 +124,8 @@ header h1 {
     padding: 5px 10px;
 }
 
+/* Task type */
+
 .editorial {
     background-color: #45ABEA;
 }
@@ -116,20 +134,18 @@ header h1 {
     background-color: #9C72E4;
 }
 
-.red-checkmark {
-    border: 1px solid #EA4237;
-    color: #EA4237;
-    height: 20px;
-    width: 20px;
-    border-radius: 10px;
-    text-align: center;
-    display: inline-block;
-}
-
 .recruiting {
     background-color: #64C0A9;
 }
 
 .mobile {
     background-color: #F29E33;
+}
+
+.website {
+    background-color: #D863A1;
+}
+
+.sales {
+    background-color: #B0C926;
 }
