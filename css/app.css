@@ -1,0 +1,62 @@
+/* layout */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: "Encode Sans", sans-serif;
+}
+
+.container {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+/* header */
+.title {
+    display: inline-block;
+}
+
+header img,
+header h1 {
+    vertical-align: middle;
+}
+
+.main-header {
+    padding: 20px;
+}
+/* main */
+.main-content {
+    background-color: #F6F8F9;
+    padding: 30px;
+}
+
+.navigation {
+    background-color: white;
+    padding: 10px 80px;
+    border-radius: 5px;
+}
+
+.button {
+    display: inline-block;
+}
+
+.button {
+    height: 30px;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.task-button {
+    background-color: #47ADF1;
+    color: white;
+    border-style: none;
+}
+
+.section-button {
+    background-color: white;
+    color: #CED3D7;
+    border: 1px solid #C5CBD0;
+}
